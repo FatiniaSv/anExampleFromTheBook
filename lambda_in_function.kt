@@ -1,4 +1,5 @@
 //можно использовать в лябде переменные вход
+//****
 fun printMessageWithPrefix( message : Collection<String>,  prefix : String){
     message.forEach{ print("$prefix  : $it , "  ) }
 }

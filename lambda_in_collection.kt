@@ -2,6 +2,7 @@
 data class Person(val name : String, val age : Int)
 
 //ищем человека с максимальным возратом
+//*****
 
 fun main(){
     val people = listOf(Person("Robert",42), Person("Anna", 17), Person("Max", 31))
