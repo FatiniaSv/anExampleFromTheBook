@@ -30,6 +30,8 @@ class CollectionAndNull {
 
 
     }
+
+    fun addValidNumbersFilter(){}//TODO
 }
 
 fun main(){
