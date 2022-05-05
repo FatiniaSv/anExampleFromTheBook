@@ -8,12 +8,14 @@ object ExampleWith{
             append("\n Now I know the alphabet!")
             this.toString()
         }
+
     }
 
     fun alphabetRefactoring(): String = with(StringBuilder()){
         for(letter in 'A'  .. 'Z'){
             append(letter)
         }
+
         append("\n Now I know the alphabet!")
         toString()
     }
