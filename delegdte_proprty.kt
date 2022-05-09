@@ -39,7 +39,7 @@ class PersonDelegate(val name : String, age : Int, salary : Int): PropertyChange
     }
     var age : Int by Delegates.observable(age , observer)
     var salary : Int by Delegates.observable(salary, observer)
-}
+}*/
 
 fun main(){
     val pers = PersonDelegate("Dmitry", 35, 2000)
@@ -47,6 +47,6 @@ fun main(){
             "from ${event.oldValue} to ${event.newValue}") })
     pers.age = 36
     pers.salary = 5000
-    val pers2 = PersonDelegate2("Sveats", 42, 1000)
-    pers2.age = 43
-}*/
+   // val pers2 = PersonDelegate2("Sveats", 42, 1000)
+    //pers2.age = 43
+}
